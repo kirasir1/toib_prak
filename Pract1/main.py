@@ -1,5 +1,5 @@
 import hashlib, re, requests, string, random, itertools
-
+# -*- coding: utf-8 -*-
 
 def task1():
     string = input('Введите строку: ')
